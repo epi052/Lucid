@@ -9,8 +9,7 @@ use crate::elf::{parse_elf, Elf, ELF_HDR_SIZE};
 const LOAD_TARGET: usize = 0x10000;
 
 // Name for static-pie executable file for Bochs
-//const BOCHS_IMAGE: &str = "/home/dude/lucid/bochs-2.7/bochs";
-const BOCHS_IMAGE: &str = "/home/dude/lucid/test";
+const BOCHS_IMAGE: &str = "i dont exist, replace me!";
 
 // Duh
 const PAGE_SIZE: usize = 0x1000;
