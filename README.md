@@ -10,7 +10,11 @@ Better README coming soon, I apologize!
 
 ## Build
 `git clone https://github.com/h0mbre/Lucid/`
+
 `cd Lucid`
+
 `gcc test.c -o test -static-pie`
+
 <change `BOCHS_IMAGE` constant in `loader.rs` to `test` path>
+
 `cargo run --release -- --bochs-args -AAAAAAAA`
